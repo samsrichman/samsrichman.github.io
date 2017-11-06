@@ -19,14 +19,14 @@ a:focus{border:none;outline:none}
 
 /* style sections */
 @media screen and (min-width: 0px) {
-.section-home {padding:120px 10% 600px;text-align: center; margin: 0px auto 0px}
+.section-home {padding:200px 10% 600px;text-align: center; margin: 0px auto 0px}
 .section-about {padding:70px 0px 0px;text-align: center; margin: 0px auto 0px}
 .section-film {padding:50px 5px 0px;text-align:center; margin: 0px auto 0px}
 .section-photo {padding:50px 5px 0px;text-align:center; margin: 0px auto 0px}
 .section-art {padding:50px 5px 90px;text-align: center; margin: 0px auto 0px}
 }
 @media screen and (min-width: 768px) {
-.section-home {padding:120px 10% 430px;text-align: center; margin: 0px auto 0px}
+.section-home {padding:200px 10% 430px;text-align: center; margin: 0px auto 0px}
 .section-about {padding:70px 0px 120px;text-align: center; margin: 0px auto 0px}
 .section-film {padding:50px 5px 120px;text-align:center; margin: 0px auto 0px}
 .section-photo {padding:50px 5px 120px;text-align:center; margin: 0px auto 0px}
@@ -35,7 +35,7 @@ a:focus{border:none;outline:none}
 
 
 @media screen and (min-height: 1024px) {
-.section-home {padding:120px 10% 727px;text-align: center; margin: 0px auto 0px}
+.section-home {padding:200px 10% 727px;text-align: center; margin: 0px auto 0px}
 
 }
 @media screen and (min-height: 1340px) {
