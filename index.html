@@ -368,7 +368,13 @@
 <script src="navscroll.js"></script>
 <script src="popup/popupssr.min.js"></script>
 <script src="ssr.js"></script>
-
+<script type="text/javascript">
+var nav = $('nav')
+function navMargin() {
+  navHeight = nav.outerHeight();
+  $('.section:not(.section-home)').css({'padding-top':navHeight});
+}
+</script>
 
 <script type="text/javascript">$(document).ready(function() {
   $('.image-popup').magnificPopup({type:'image',removalDelay: 300,
