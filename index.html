@@ -374,6 +374,11 @@ function navMargin() {
   navHeight = nav.outerHeight();
   $('.section:not(.section-home)').css({'padding-top':navHeight});
 }
+$(document).ready(function(){
+	$(window).on('scroll resize',function(){
+		navSwitch();
+	});
+});
 </script>
 
 <script type="text/javascript">$(document).ready(function() {
