@@ -6,6 +6,50 @@
 /* no dotted border on links in FF */
 a:focus{border:none;outline:none}
 
+/* NEW ADDS */
+
+
+
+
+body{
+  text-align: center;
+  display: none;
+}
+
+a:focus, a:hover {
+  text-decoration: none;
+}
+
+nav {
+  z-index: 2;
+  position: relative;
+  background-color: #FFF;
+  text-align: center;
+  padding: 0px;
+  margin:0px;
+  width: 100%;
+  padding-bottom: 10px;
+  float: left;
+}
+
+.fixed {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+}
+
+.film, .photo, .art {
+  margin-top: 0px;
+}
+
+.section-home {
+  position:relative;
+  top:-10vh;
+}
+
+/* END NEW ADDS */
+
+
 /*Rotations
 #rotr05{transform:rotate(.5deg);-webkit-transform: rotate(.5deg);-mox-transform: rotate(.5deg)}
 #rotr1{transform:rotate(1deg);-webkit-transform: rotate(1deg);-mox-transform: rotate(1deg)}
@@ -17,7 +61,7 @@ a:focus{border:none;outline:none}
 */
 
 
-/* style sections */
+/* style sections 
 @media screen and (min-width: 0px) {
 .section-home {padding:200px 10% 600px;text-align: center; margin: 0px auto 0px}
 .section-about {padding:70px 0px 0px;text-align: center; margin: 0px auto 0px}
@@ -55,7 +99,7 @@ a:focus{border:none;outline:none}
 @media screen and (max-height: 568px) {
 .section-home {padding:120px 10% 300px;text-align: center; margin: 0px auto 0px}
 }
-
+*/
 
 
 
@@ -492,7 +536,7 @@ a.arthome:hover, a.arthome:focus {border:0;font:0/0 a;text-shadow:none;color:tra
 .title {
   width: 360px ;
   height: 160px;
-  margin-top:80px;
+  margin-top:0px;
 }
 .filmhome {
   width: 80px;
