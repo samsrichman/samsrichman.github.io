@@ -166,6 +166,7 @@ a:hover > .proj-item img, a:focus > .proj-item img{
 		width:100%;
 		min-height: 300px;
 	}
+	video {display:none;}
 }
 
 /*small screens*/
@@ -197,7 +198,6 @@ a:hover > .proj-item img, a:focus > .proj-item img{
 	margin-bottom:15px; 
 	}
 
-	video {display:none;}
 
 	.freelance iframe {
 		width:100%;
